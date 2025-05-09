@@ -1,0 +1,91 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #f0f0f0;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Encabezado */
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 30px 0;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+header h1 {
+    font-size: 3em;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+
+
+.image {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.image img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgb(0, 0, 0);
+}
+
+
+.content {
+    max-width: 800px;
+    margin: 0 auto 40px;
+    background-color: rgba(84, 15, 15, 0.689);
+    padding: 20px 25px;
+    border-radius: 15px;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    font-size: 1.1em;
+}
+
+/* Contenedor de tarjeta */
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 0 15px;
+}
+
+
+.card {
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    max-width: 900px;
+    width: 100%;
+    box-shadow: 0 8px 20px rgb(0, 0, 0);
+    backdrop-filter: blur(6px);
+}
+
+
+
+.imgcard img {
+    width: 100%;
+    border-bottom: 3px solid ;
+}
+
+
+.card .content {
+    padding: 25px;
+}
+
+.card h1 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.card p {
+    font-size: 1.05em;
+    color: #ffffff;
+}
+
+
